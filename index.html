@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Casa de Materiais de Construção</title> 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="styles.css"> <!-- Arquivo CSS para customizações adicionais -->
+</head>
+<body>
+
+  <!-- Barra de Navegação -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="img/IMG-20250414-WA0010.jpg" alt="Logo Casa de Materiais" width="150">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
+            <li class="nav-item"><a class="nav-link" href="sobre.html">Sobre</a></li>
+            <li class="nav-item"><a class="nav-link" href="produtos.html">Produtos</a></li>
+            <li class="nav-item"><a class="nav-link" href="ofertas.html">Ofertas</a></li>
+            <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Seção Home -->
+  <section id="home" class="py-5 bg-light">
+    <div class="container text-center">
+      <h1>Bem-vindo à Nossa Casa de Materiais de Construção!</h1>
+      <p>Encontre tudo o que você precisa para a sua obra. Desde materiais básicos até itens especializados, temos as melhores opções para você.</p>
+      <a href="produtos.html" class="btn btn-success">Veja os Produtos</a>
+    </div>
+  </section>
+
+  <!-- Seção Sobre -->
+  <section id="sobre" class="py-5">
+    <div class="container text-center">
+      <h2>Sobre a Nossa Casa de Materiais de Construção</h2>
+      <p>Fundada em 1990, nossa loja oferece uma ampla gama de materiais de construção para facilitar sua obra, com produtos de qualidade e preços acessíveis.</p>
+    </div>
+  </section>
+
+  <!-- Seção de Carrossel de Imagens -->
+  <section id="carousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/layout-de-loja-de-materiais-de-construcao.jpg" class="d-block w-100" alt="Loja de Materiais">
+      </div>
+      <div class="carousel-item">
+        <img src="img/O-que-e-material-de-construcao-1-min.jpg" class="d-block w-100" alt="Diversos Materiais de Construção">
+      </div>
+      <div class="carousel-item">
+        <img src="img/capa(2).png" class="d-block w-100" alt="Obra em andamento">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Próximo</span>
+    </button>
+  </section>
+
+  <!-- Seção de Produtos em Destaque -->
+  <section id="produtos-destaque" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Produtos em Destaque</h2>
+      <div class="row justify-content-center">
+        <!-- Produto 1 -->
+        <div class="col-sm-12 col-md-4 mb-4">
+          <div class="card">
+            <img src="img/images (4).jfif" class="card-img-top" alt="Cimento">
+            <div class="card-body">
+              <h5 class="card-title">Cimento Nacional</h5>
+              <p class="card-text">Cimento de alta qualidade para sua obra. Ideal para todo tipo de construção.</p>
+              <a href="produtos.html" class="btn btn-success">Ver Produto</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Produto 2 -->
+        <div class="col-sm-12 col-md-4 mb-4">
+          <div class="card">
+            <img src="img/images (3).jfif" class="card-img-top" alt="Tijolos">
+            <div class="card-body">
+              <h5 class="card-title">Tijolos de Alta Resistência</h5>
+              <p class="card-text">Tijolos duráveis e resistentes para construção de paredes e fundações.</p>
+              <a href="produtos.html" class="btn btn-success">Ver Produto</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Produto 3 -->
+        <div class="col-sm-12 col-md-4 mb-4">
+          <div class="card">
+            <img src="img/images (5).jfif" class="card-img-top" alt="Ferragens">
+            <div class="card-body">
+              <h5 class="card-title">Ferragens e Ferramentas</h5>
+              <p class="card-text">Oferecemos uma vasta gama de ferragens e ferramentas para profissionais e amadores.</p>
+              <a href="produtos.html" class="btn btn-success">Ver Produto</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Seção de Ofertas -->
+  <section id="ofertas" class="py-5">
+    <div class="container">
+      <h2 class="text-center">Ofertas Imperdíveis</h2>
+      <p class="text-center">Confira nossas ofertas especiais para você economizar ainda mais na sua obra!</p>
+      <div class="row">
+        <!-- Oferta 1 -->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 d-flex">
+            <img src="img/images (5).jfif" class="card-img-top" alt="Ferro de Construção">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Ferro para Construção - 30% Off</h5>
+              <p class="card-text">Compre ferro de construção com 30% de desconto e economize no material de base da sua obra.</p>
+              <a href="ofertas.html" class="btn btn-success mt-auto">Ver Oferta</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Oferta 2 -->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 d-flex">
+            <img src="img/162664-800-800.webp" class="card-img-top" alt="Piso Porcelanato">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Piso Porcelanato - 20% Off</h5>
+              <p class="card-text">Adquira pisos porcelanatos com 20% de desconto e dê um toque especial ao seu projeto.</p>
+              <a href="ofertas.html" class="btn btn-success mt-auto">Ver Oferta</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Oferta 3 -->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 d-flex">
+            <img src="img/160717-1200-auto.png" class="card-img-top" alt="Tinta Acrílica">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Tinta Acrílica - Compre 2, leve 3</h5>
+              <p class="card-text">Compre 2 latas de tinta acrílica e ganhe a 3ª de graça. Aproveite essa promoção!</p>
+              <a href="ofertas.html" class="btn btn-success mt-auto">Ver Oferta</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="bg-dark text-white py-4">
+    <div class="container text-center">
+      <p>&copy; 2025 Casa de Materiais de Construção. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"></script>
+</body>
+</html>

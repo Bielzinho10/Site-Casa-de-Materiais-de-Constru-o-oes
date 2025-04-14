@@ -1,0 +1,143 @@
+/* Ajustando o tamanho da logo */
+.logo {
+    width: 50px; /* Diminui a largura da logo */
+    height: auto; /* Ajusta a altura automaticamente para manter a proporção */
+  }
+  /* Estilos Globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Home */
+#home {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+#carousel {
+    margin-top: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-item {
+    display: inline-block;
+    width: 100%;
+    max-width: 100%;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+/* Seções */
+section {
+    padding: 40px 0;
+}
+
+section#about, section#products, section#careers, section#contact {
+    background-color: #fff;
+    margin-top: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+h2, h3 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.category {
+    margin-bottom: 20px;
+}
+
+.category ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.category ul li {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+form {
+    display: grid;
+    gap: 15px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #007BFF;
+    color: white;
+    padding: 12px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
